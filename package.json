@@ -1,0 +1,10 @@
+{
+  "name": "test-renovate",
+  "volta": {
+    "node": "18.13.0",
+    "yarn": "3.3.1"
+  },
+  "dependencies": {
+    "typescript": "4.8.4"
+  }
+}
