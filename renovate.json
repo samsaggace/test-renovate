@@ -3,15 +3,13 @@
   "extends": ["config:base"],
   "regexManagers": [
     {
-      "ignorePaths": [],
       "fileMatch": [
-        ".*testcontainers\\.properties"
+        "testcontainers\\.properties"
       ],
       "matchStrings": [
         "[a-zA-Z]+=(?<depName>.*?):(?<currentValue>.*)"
       ],
-      "datasourceTemplate": "docker",
-      "enabled": true
+      "datasourceTemplate": "docker"
     }
   ]
 }
