@@ -1,8 +1,12 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:base"],
-
-  "ignorePaths": ["!**/testcontainers.properties"],
+  "packageRules": [
+    {
+      "matchFileNames": [".*testcontainers\\.properties"],
+      "enabled": true
+    }
+  ],
   "regexManagers": [
     {
       "fileMatch": [
