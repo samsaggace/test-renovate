@@ -4,7 +4,7 @@
   "regexManagers": [
     {
       "fileMatch": [
-        "testcontainers\\.properties"
+        "testcontainers.properties"
       ],
       "matchStrings": [
         "[a-zA-Z]+=(?<depName>.*?):(?<currentValue>.*)"
